@@ -10,57 +10,42 @@ const Services = () => {
       <div className='container services-container'>
           <article className='service'>
             <div className="service-head">
-              <h3>UI/UX Design</h3>
+              <h3>Responsive Web Design</h3>
             </div>
             <ul className='service-list'>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Designs adapt seamlessly across mobile, tablet, and desktop screens.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Focused on enhancing accessibility and user experience across devices.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Implements flexible grid systems using media queries and modern CSS.</p>
                </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
+
             </ul>
           </article>
           {/* END of UI/UX */}
 
           <article className='service'>
             <div className="service-head">
-              <h3>React Application</h3>
+              <h3>Frontend Development</h3>
             </div>
             <ul className='service-list'>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Builds reusable, modular components using React.js.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Implements state management and routing for smooth navigation.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Integrates with APIs to fetch and display dynamic content.</p>
                </li>
             </ul>
           </article>
@@ -73,23 +58,15 @@ const Services = () => {
             <ul className='service-list'>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Creates modern layouts using spacing, typography, and visual hierarchy.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Enhances visual appeal with icons, gradients, and animations.</p>
                </li>
                <li>
                 <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
-               </li>
-               <li>
-                <BiCheck className='service-list-icon'/>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Converts wireframes or mockups into pixel-perfect UI.</p>
                </li>
             </ul>
           </article>

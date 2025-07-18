@@ -1,12 +1,16 @@
 header{
-   height: 100vh; 
+   height: 130vh; 
    padding-top: 7rem;
    overflow: hidden;
 }
+
 .header_container{
     text-align: center;
     height: 100%;
     position: relative;
+}
+.header-subhead{
+    font-size: 3rem;
 }
 /* -------------cta----------- */
 .cta{
@@ -54,17 +58,22 @@ header{
 /* ----media query--- */
 
 /* -----------media queries---------- */
-
+@media screen and (min-width: 2324px) {
+  
+   header{
+    height: 80vh;
+   }
+  }
 @media screen and (max-width: 1024px) {
   
    header{
-    height: 100vh;
+    height: 80vh;
    }
   }
   
   @media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        height: 80vh;
        }
        .header_socials,
        .scroll-down{
